@@ -1,0 +1,1872 @@
+﻿/*================================= 
+        Font-Family's Start
+  =================================*/
+@font-face {
+    font-family: 'Just tell me what regular (Version 2)';
+    src: url('../../Fonts/Just tell me what regular (Version 2).otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'ProximaNova-Regular';
+    src: url('../../Fonts/ProximaNova-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Proxima Nova Semibold';
+    src: url('../../Fonts/Proxima Nova Semibold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Proxima Nova Thin';
+    src: url('../../Fonts/Proxima Nova Thin.otf') format('opentype');
+}
+
+
+/*================================= 
+        Font-Family's End
+  =================================*/
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+}
+
+
+/*================================= 
+    Navbar Section Styling
+  =================================*/
+
+
+/*.menu-bg-color {
+    width: 100%;
+    padding: 15px;
+    background: #102e19;
+    transform: skew(38deg);
+    border-right: 30px solid transparent;
+}*/
+.menu-bg-color {
+    background-color: #102e19;
+    background-image: -webkit-linear-gradient(36deg, white 9%, #102e19 8%);
+    height: 90px;
+}
+
+.zero-skew {
+    transform: skew(0deg) !important;
+}
+
+
+.no-skew {
+    transform: skew(0deg);
+}
+
+
+.navbar-brand {
+    margin-right: 6rem;
+    margin-left: 4.4%;
+}
+
+.nav-bg-color {
+    background: #ffffff !important;
+    transform: skew(0deg);
+}
+
+.navbar {
+    padding: 0px 0px 0 0px;
+}
+
+/*Nav DEsgin End*/
+#home {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.some {
+    position: relative;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+/*.sleep {
+    padding: 0px 100px 0px 100px;
+    transition: all .4s ease-in-out;
+}*/
+
+.nav-setting-on-scroll {
+    padding: 0px 20px !important;
+}
+
+.easy-nav-on-scroll {
+    transition: all 0.6s ease-in-out;
+}
+
+.navbar-nav {
+    margin-left: 212px;
+}
+
+.nav-padding {
+    padding: 0px 0px 0 80px;
+}
+
+.nav-item {
+    padding: 0px 10px 0 23px;
+    position: relative;
+}
+
+#my-nav-brand .navbar-brand {
+    display: inline;
+    margin-right: 0;
+}
+
+.nav-trans {
+    transition: padding 400ms linear;
+}
+
+.fixed-top {
+    transition: all .5s ease-in-out;
+}
+
+/*.nav-padding {
+    padding: 20px 36px 0px 90px;
+}*/
+
+.active .nav-link {
+    position: relative;
+    font-size: 20px;
+    color: #ffffff !important;
+    text-transform: uppercase !important;
+    font-family: 'ProximaNova-Regular';
+}
+
+    .active .nav-link::before {
+        content: '';
+        position: absolute;
+        background: #9cc212;
+        width: 85%;
+        height: 12px;
+        top: -24px;
+        left: 7px;
+    }
+
+    .active .nav-link::after {
+        content: '';
+        position: absolute;
+        background: #9cc212;
+        width: 85%;
+        height: 12px;
+        left: 7px;
+        bottom: -23px;
+    }
+
+.navbar-nav .nav-link {
+    /*transform: skew(-38deg);*/
+    color: #ffffff;
+    font-size: 20px;
+    padding: 8px 13px 5px 13px;
+    text-transform: uppercase;
+    font-family: 'ProximaNova-Regular';
+}
+
+
+
+.main-bg-banner {
+    position: relative;
+    padding: 0px 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.content-setting {
+    padding: 200px 0;
+}
+
+
+
+#home .main-banner-text {
+    letter-spacing: 0px;
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Just tell me what regular (Version 2)';
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.75);
+}
+
+
+#home .main-banner-desc {
+    font-size: 20px;
+    color: #9cc212;
+    font-family: 'Proxima Nova Semibold';
+}
+
+
+.btn-contact {
+    width: 208px;
+    height: 64px;
+    font-size: 20px;
+    line-height: 46px;
+    border-radius: 0px;
+    color: #ffffff;
+    border-width: 2px;
+    border-color: rgb(142, 176, 18);
+    border-style: solid;
+    background: transparent;
+    text-transform: uppercase;
+    font-family: 'Proxima Nova Semibold';
+    box-shadow: 0px 2px 4.75px 0.25px rgba(0, 0, 0, 0.25);
+}
+
+    .btn-contact:hover {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+
+
+
+.btn-gallery {
+    width: 208px;
+    height: 64px;
+    font-size: 20px;
+    line-height: 46px;
+    border-radius: 0px;
+    color: #ffffff;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(16, 46, 25);
+    background-color: rgba(156, 194, 18, 0.902);
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-family: 'Proxima Nova Semibold';
+}
+
+    .btn-gallery:hover {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+
+
+
+.link-style {
+    text-decoration: none;
+    color: #fafcfe;
+}
+
+    .link-style:hover {
+        text-decoration: none;
+        color: #fafcfe;
+    }
+
+#home .owl-theme .owl-nav {
+    position: relative;
+    margin-top: 10px;
+}
+
+#home .owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    right: 128px;
+    bottom: 250px;
+    background: #ffffff;
+    width: 36px;
+    height: 145px;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(16, 46, 25);
+}
+
+#home .owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    left: 128px;
+    bottom: 250px;
+    background: #ffffff;
+    width: 36px;
+    height: 145px;
+    opacity: 1;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(16, 46, 25);
+}
+
+    #home .owl-carousel .owl-nav button.owl-prev:hover {
+        color: #ffffff;
+    }
+
+#home .owl-theme .owl-nav [class*=owl-]:hover {
+    background: #9cc212;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+
+#home .flaticon-next:before {
+    content: "\f105";
+    font-size: 22px;
+    margin-left: 1px;
+    background: transparent;
+    padding: 0px;
+    color: #17321f;
+}
+
+#home .flaticon-next:hover:before {
+    color: #ffffff;
+}
+
+#home .flaticon-left:before {
+    content: "\f100";
+    font-size: 22px;
+    margin-left: 1px;
+    background: transparent;
+    padding: 0px;
+    color: #17321f;
+}
+
+#home .flaticon-left:hover:before {
+    color: #ffffff;
+}
+
+
+/*================================= 
+      Service Section Styling
+  =================================*/
+#services {
+    padding: 60px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.service-text {
+    font-size: 40px;
+    color: #9cc212;
+    font-family: 'Just tell me what regular (Version 2)';
+    text-shadow: 0.5px 0.866px 0px rgba(0, 0, 0, 0.7);
+}
+
+.service-desc {
+    font-size: 20px;
+    color: #2c2c2c;
+    text-align: center;
+    font-family: 'ProximaNova-Regular';
+}
+
+.service-desc {
+    font-size: 20px;
+    color: #2c2c2c;
+    text-align: center;
+    font-family: 'ProximaNova-Regular';
+}
+
+.img-position-left {
+    position: absolute;
+    left: 19.5%;
+    bottom: 11px;
+}
+
+.img-position-right {
+    position: absolute;
+    right: 19%;
+    bottom: 12px;
+}
+
+.service-border {
+    border: 3px dashed #c8c8c8;
+    text-align: center;
+    padding: 61px 30px;
+}
+
+    .service-border:hover {
+        background: #f1f1f1;
+        box-shadow: 2.5px 4.33px 14px 0px rgba(16, 46, 25, 0.5);
+        background-image: url('../../Images/bg-img-hover.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
+    }
+
+.service-heading {
+    font-size: 32px;
+    color: #102e19;
+    text-transform: uppercase;
+    font-family: 'Just tell me what regular (Version 2)';
+}
+
+.service-text-desc {
+    font-size: 18px;
+    color: #2c2c2c;
+    font-family: 'ProximaNova-Regular';
+}
+
+#services .no-display {
+    display: none;
+}
+
+#services .btn-load-service {
+    font-size: 22px;
+    width: 246px;
+    height: 87px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(156, 194, 18);
+    background-color: rgba(16, 46, 25, 0.902);
+    font-family: 'Proxima Nova Semibold';
+    color: #ffffff;
+    box-shadow: 0px 5px 5px 0px rgba(39, 66, 48, 0.5);
+}
+
+#services .read-text {
+    font-size: 22px;
+    color: #102e19;
+    font-family: 'Just tell me what regular (Version 2)';
+}
+
+    #services .read-text:hover {
+        text-decoration: none;
+        color: #102e19;
+    }
+/*================================= 
+       Gallery Section Styling
+  =================================*/
+#gallery {
+    padding: 60px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.img-position-gallery-left {
+    position: absolute;
+    left: 14%;
+    bottom: 12px;
+}
+
+.img-position-gallery-right {
+    position: absolute;
+    right: 14%;
+    bottom: 12px;
+}
+
+.containing {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(156, 194, 18,0.6);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+}
+
+
+
+.containing:hover .overlay {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#gallery .flaticon-eye:before {
+    content: "\f101";
+    margin-left: 0;
+    font-size: 45px;
+}
+/*================================= 
+       Work Section Styling
+  =================================*/
+#bg-banner {
+    padding: 60px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-position-work-left {
+    position: absolute;
+    left: 11%;
+    bottom: 12px;
+}
+
+.img-position-work-right {
+    position: absolute;
+    right: 11%;
+    bottom: 12px;
+}
+
+#work .card {
+    background-color: transparent;
+}
+
+    #work .card:hover {
+        background: #ffffff;
+    }
+
+#work .card-body {
+    border-right: 2px dashed #959595;
+    border-left: 2px dashed #959595;
+    border-bottom: 2px dashed #959595;
+}
+
+.work-heading {
+    position: relative;
+    font-size: 24px;
+    color: #102e19;
+    text-transform: uppercase;
+    font-family: 'Just tell me what regular (Version 2)';
+}
+
+    .work-heading::after {
+        content: '';
+        position: absolute;
+        background: #9cc212;
+        width: 31%;
+        height: 2px;
+        bottom: -13px;
+        left: 33%;
+    }
+
+.work-desc {
+    font-size: 18px;
+    color: #2c2c2c;
+    font-family: 'ProximaNova-Regular';
+}
+
+#work .read-texts {
+    font-size: 18px;
+    color: #102e19;
+    font-family: 'Just tell me what regular (Version 2)';
+}
+
+    #work .read-texts:hover {
+        text-decoration: none;
+        color: #102e19;
+    }
+
+#work .owl-theme .owl-nav {
+    position: relative;
+    margin-top: 10px;
+}
+
+#work .owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    right: -83px;
+    bottom: 250px;
+    background: #102e19;
+    width: 36px;
+    height: 145px;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(16, 46, 25);
+}
+
+#work .owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    left: -83px;
+    bottom: 250px;
+    background: #9cc212;
+    width: 36px;
+    height: 145px;
+    opacity: 1;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(16, 46, 25);
+}
+
+#work .owl-theme .owl-nav [class*=owl-]:hover {
+    background: #9cc212;
+    color: #a3111b;
+    text-decoration: none;
+}
+
+
+
+#work .flaticon-next:before {
+    content: "\f105";
+    font-size: 22px;
+    margin-left: 1px;
+    background: transparent;
+    padding: 0px;
+    color: #ffffff;
+}
+
+#work .flaticon-left:before {
+    content: "\f100";
+    font-size: 22px;
+    margin-left: 1px;
+    background: transparent;
+    padding: 0px;
+    color: #ffffff;
+}
+/*================================= 
+        Team Section Styling
+  =================================*/
+#team {
+    padding: 25px 0;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.team-border {
+    border: 3px dashed #959595;
+    padding: 60px 40px;
+    text-align: center;
+}
+
+    .team-border:hover {
+        background: #102e19;
+        border: 3px dashed #9cc212;
+    }
+
+        .team-border:hover .team-member-text {
+            color: #ffffff;
+        }
+
+        .team-border:hover .desgination-text {
+            color: #ffffff;
+        }
+
+        .team-border:hover .read-textss {
+            color: #ffffff !important;
+        }
+
+        .team-border:hover .image-radius {
+            border: 3px solid #9cc212;
+        }
+
+        .team-border:hover .team-desc-text {
+            color: #ffffff;
+        }
+
+#team .read-textss {
+    font-size: 18px;
+    color: #102e19;
+    font-family: 'Just tell me what regular (Version 2)';
+}
+
+    #team .read-textss:hover {
+        text-decoration: none;
+        color: #102e19;
+    }
+
+.team-member-text {
+    font-size: 30px;
+    color: #9cc212;
+    text-transform: uppercase;
+    font-family: 'Just tell me what regular (Version 2)';
+}
+
+.desgination-text {
+    font-size: 18px;
+    color: #102e19;
+    text-transform: uppercase;
+    font-family: 'ProximaNova-Regular';
+}
+
+.team-desc-text {
+    font-size: 18px;
+    color: #2c2c2c;
+    font-family: 'ProximaNova-Regular';
+}
+
+#team .owl-theme .owl-nav {
+    position: relative;
+    margin-top: 10px;
+}
+
+#team .owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    right: -83px;
+    bottom: 250px;
+    background: #102e19;
+    width: 36px;
+    height: 145px;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(16, 46, 25);
+}
+
+#team .owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    left: -83px;
+    bottom: 250px;
+    background: #9cc212;
+    width: 36px;
+    height: 145px;
+    opacity: 1;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(16, 46, 25);
+}
+
+#team .owl-theme .owl-nav [class*=owl-]:hover {
+    background: #9cc212;
+    color: #a3111b;
+    text-decoration: none;
+}
+
+
+
+#team .flaticon-next:before {
+    content: "\f105";
+    font-size: 22px;
+    margin-left: 1px;
+    background: transparent;
+    padding: 0px;
+    color: #ffffff;
+}
+
+#team .flaticon-left:before {
+    content: "\f100";
+    font-size: 22px;
+    margin-left: 1px;
+    background: transparent;
+    padding: 0px;
+    color: #ffffff;
+}
+/*================================= 
+       Contact Section Styling
+  =================================*/
+#contact-bg-banner {
+    padding: 60px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    #contact-bg-banner ::placeholder {
+        font-size: 15px;
+        color: #809185;
+        font-family: 'Proxima Nova Thin';
+    }
+
+.field-name {
+    width: 100%;
+    height: 59px;
+    font-size: 18px;
+    padding: 15px;
+    color: #809185;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(39, 66, 48);
+    background-color: rgba(247, 247, 247, 0.91);
+}
+
+.textarea-name {
+    width: 100%;
+    font-size: 18px;
+    padding: 15px;
+    resize: none;
+    color: #809185;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(39, 66, 48);
+    background-color: rgba(247, 247, 247, 0.91);
+}
+
+.btn-submit {
+    width: 100%;
+    height: 64px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-color: rgb(156, 194, 18);
+    background-color: rgb(16, 46, 25);
+    font-family: 'Proxima Nova Semibold';
+}
+
+.banner-bg-color {
+    text-align: center;
+    padding: 40px 40px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(156, 194, 18);
+    background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(43,114,65) 0%, rgb(33,82,48) 100%);
+    background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(43,114,65) 0%, rgb(33,82,48) 100%);
+    background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(43,114,65) 0%, rgb(33,82,48) 100%);
+}
+
+.connect-text {
+    font-size: 32px;
+    color: #ffffff;
+    font-family: 'Just tell me what regular (Version 2)';
+}
+
+.contact-desc {
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 0;
+    font-family: 'ProximaNova-Regular';
+}
+
+.contact-heading-text {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 0;
+    font-family: 'ProximaNova-Regular';
+}
+
+#contact-bg-banner [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+    font-family: Flaticon;
+    font-size: 53.6px;
+    font-style: normal;
+    margin-left: 0px;
+    color: #ffffff;
+}
+
+.footer-bg-color {
+    padding: 28px 0 10px 0;
+    background-image: -moz-linear-gradient( 90deg, rgb(43,114,65) 0%, rgb(33,82,48) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(43,114,65) 0%, rgb(33,82,48) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(43,114,65) 0%, rgb(33,82,48) 100%);
+}
+
+.footer-font {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'ProximaNova-Regular';
+}
+
+
+/*================================= 
+          Read More Styling
+  =================================*/
+.comments-space {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.comments-spaces {
+    text-align: left;
+}
+
+.comments-spacess {
+    text-align: center;
+}
+
+.remaining-contents span {
+    display: none;
+}
+
+
+/*=================== Custome Margins ===================*/
+.mt--180 {
+    margin-top: -180px;
+}
+
+.mt--375 {
+    margin-top: -375px;
+}
+
+.mt--117 {
+    margin-top: -117px;
+}
+
+.mt--100 {
+    margin-top: -100px;
+}
+
+.mt--90 {
+    margin-top: -90px;
+}
+
+.mt--60 {
+    margin-top: -60px;
+}
+
+.mt--55 {
+    margin-top: -55px;
+}
+
+.mt--48 {
+    margin-top: -48px;
+}
+
+.mt--44 {
+    margin-top: -44px;
+}
+
+.mt--13 {
+    margin-top: -13px;
+}
+
+.mt--9 {
+    margin-top: -9px;
+}
+
+.mt-360 {
+    margin-top: 360px;
+}
+
+.mt-300 {
+    margin-top: 300px;
+}
+
+.mt-290 {
+    margin-top: 290px;
+}
+
+.mt-280 {
+    margin-top: 280px;
+}
+
+.mt-270 {
+    margin-top: 270px;
+}
+
+.mt-260 {
+    margin-top: 260px;
+}
+
+.mt-250 {
+    margin-top: 250px;
+}
+
+.mt-240 {
+    margin-top: 240px;
+}
+
+.mt-230 {
+    margin-top: 230px;
+}
+
+
+.mt-200 {
+    margin-top: 200px;
+}
+
+.mt-180 {
+    margin-top: 180px;
+}
+
+.mt-170 {
+    margin-top: 170px;
+}
+
+.mt-160 {
+    margin-top: 160px;
+}
+
+.mt-150 {
+    margin-top: 150px;
+}
+
+.mt-140 {
+    margin-top: 140px;
+}
+
+.mt-130 {
+    margin-top: 130px;
+}
+
+.mt-120 {
+    margin-top: 120px;
+}
+
+.mt-115 {
+    margin-top: 115px;
+}
+
+.mt-110 {
+    margin-top: 110px;
+}
+
+.mt-108 {
+    margin-top: 108px;
+}
+
+.mt-106 {
+    margin-top: 106px;
+}
+
+.mt-105 {
+    margin-top: 105px;
+}
+
+.mt-102 {
+    margin-top: 102px;
+}
+
+.mt-101 {
+    margin-top: 101px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.mt-99 {
+    margin-top: 99px;
+}
+
+.mt-98 {
+    margin-top: 98px;
+}
+
+.mt-97 {
+    margin-top: 97px;
+}
+
+.mt-96 {
+    margin-top: 96px;
+}
+
+.mt-95 {
+    margin-top: 95px;
+}
+
+.mt-94 {
+    margin-top: 94px;
+}
+
+.mt-93 {
+    margin-top: 93px;
+}
+
+.mt-92 {
+    margin-top: 92px;
+}
+
+.mt-91 {
+    margin-top: 91px;
+}
+
+.mt-90 {
+    margin-top: 90px;
+}
+
+.mt-89 {
+    margin-top: 89px;
+}
+
+.mt-88 {
+    margin-top: 88px;
+}
+
+.mt-87 {
+    margin-top: 87px;
+}
+
+.mt-86 {
+    margin-top: 86px;
+}
+
+.mt-85 {
+    margin-top: 85px;
+}
+
+.mt-84 {
+    margin-top: 84px;
+}
+
+.mt-83 {
+    margin-top: 83px;
+}
+
+.mt-82 {
+    margin-top: 82px;
+}
+
+.mt-81 {
+    margin-top: 81px;
+}
+
+.mt-80 {
+    margin-top: 80px;
+}
+
+.mt-75 {
+    margin-top: 75px;
+}
+
+.mt-74 {
+    margin-top: 74px;
+}
+
+.mt-73 {
+    margin-top: 73px;
+}
+
+.mt-70 {
+    margin-top: 70px;
+}
+
+.mt-68 {
+    margin-top: 68px;
+}
+
+.mt-65 {
+    margin-top: 65px;
+}
+
+.mt-64 {
+    margin-top: 64px;
+}
+
+.mt-63 {
+    margin-top: 63px;
+}
+
+.mt-62 {
+    margin-top: 62px;
+}
+
+.mt-61 {
+    margin-top: 61px;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.mt-55 {
+    margin-top: 55px;
+}
+
+.mt-53 {
+    margin-top: 53px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-49 {
+    margin-top: 49px;
+}
+
+.mt-48 {
+    margin-top: 48px;
+}
+
+.mt-47 {
+    margin-top: 47px;
+}
+
+.mt-46 {
+    margin-top: 46px;
+}
+
+.mt-45 {
+    margin-top: 45px;
+}
+
+.mt-44 {
+    margin-top: 44px;
+}
+
+.mt-43 {
+    margin-top: 43px;
+}
+
+.mt-42 {
+    margin-top: 42px;
+}
+
+.mt-41 {
+    margin-top: 41px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mt-39 {
+    margin-top: 39px;
+}
+
+.mt-38 {
+    margin-top: 38px;
+}
+
+.mt-37 {
+    margin-top: 37px;
+}
+
+.mt-36 {
+    margin-top: 36px;
+}
+
+.mt-35 {
+    margin-top: 35px;
+}
+
+.mt-34 {
+    margin-top: 34px;
+}
+
+.mt-33 {
+    margin-top: 32px;
+}
+
+.mt-32 {
+    margin-top: 32px;
+}
+
+.mt-31 {
+    margin-top: 31px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-29 {
+    margin-top: 29px;
+}
+
+.mt-28 {
+    margin-top: 28px;
+}
+
+.mt-27 {
+    margin-top: 27px;
+}
+
+.mt-26 {
+    margin-top: 26px;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+.mt-21 {
+    margin-top: 21px;
+}
+
+.mt-22 {
+    margin-top: 22px;
+}
+
+.mt-23 {
+    margin-top: 23px;
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-18 {
+    margin-top: 18px;
+}
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-8 {
+    margin-top: 8px;
+}
+
+.mt-6 {
+    margin-top: 6px;
+}
+
+.mt-4p5 {
+    margin-top: 4.5px;
+}
+/*=========== Margin Bottom ===========*/
+.mb-100 {
+    margin-bottom: 100px;
+}
+
+.mb-110 {
+    margin-bottom: 110px;
+}
+
+.mb-160 {
+    margin-bottom: 160px;
+}
+
+.b-50 {
+    bottom: 50px;
+}
+
+.b-30 {
+    bottom: 30px;
+}
+/*================ Margin-Left ===================*/
+
+
+.ml--4 {
+    margin-left: -4%;
+}
+
+.ml-32 {
+    margin-left: 32px;
+}
+
+.ml-77 {
+    margin-left: 77%;
+}
+
+.ml-37 {
+    margin-left: 37%;
+}
+
+.ml-36 {
+    margin-left: 36px;
+}
+
+
+.ml-24 {
+    margin-left: 24%;
+}
+
+.ml-23 {
+    margin-left: 23%;
+}
+
+/*================ Padding-Top ===================*/
+.pt-120 {
+    padding-top: 120px;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+
+
+
+/*======= Some Commen Styling ======*/
+
+.email-style {
+    text-decoration: none;
+    color: #999999;
+}
+
+    .email-style:hover {
+        text-decoration: none;
+        color: #999999;
+    }
+
+button:focus {
+    outline: none;
+    outline: none;
+}
+
+.Btn_cont {
+    position: absolute;
+    left: 882px;
+    top: 3192px;
+    z-index: 264;
+}
+
+.btn-load-more {
+    width: 200px;
+    height: 58px;
+    color: #ffffff;
+    border-radius: 3px;
+    font-weight: 500;
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(209, 0, 56);
+}
+
+
+.btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+.btn:focus, .btn.focus {
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.image-radius {
+    border-radius: 50%;
+    width: 170px !important;
+    height: 170px;
+    border: 3px solid #102e19;
+    -webkit-box-shadow: 2px 6px 48px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 6px 48px -12px rgba(0,0,0,0.75);
+    box-shadow: 2px 6px 48px -12px rgba(0,0,0,0.75);
+}
+
+/*------ Scrolling Css --------*/
+#services .service-text-desc {
+    height: 150px;
+    overflow: auto;
+}
+    /* width */
+    #services .service-text-desc::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    /* Track */
+    #services .service-text-desc::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px #102e19;
+        border-radius: 20px;
+    }
+
+    /* Handle */
+    #services .service-text-desc::-webkit-scrollbar-thumb {
+        background: #102e19;
+        border-radius: 20px;
+    }
+
+        /* Handle on hover */
+        #services .service-text-desc::-webkit-scrollbar-thumb:hover {
+            background: #102e19;
+        }
+/*---------------------------*/
+
+
+/*------ Scrolling Css Another --------*/
+/* width */
+#work .work-desc {
+    height: 150px;
+    overflow: auto;
+}
+
+    #work .work-desc::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    /* Track */
+    #work .work-desc::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px #102e19;
+        border-radius: 20px;
+    }
+
+    /* Handle */
+    #work .work-desc::-webkit-scrollbar-thumb {
+        background: #102e19;
+        border-radius: 20px;
+    }
+
+        /* Handle on hover */
+        #work .work-desc::-webkit-scrollbar-thumb:hover {
+            background: #102e19;
+        }
+/*---------------------------*/
+
+
+/*------ Scrolling Css Another --------*/
+/* width */
+#team .team-desc-text {
+    height: 150px;
+    overflow: auto;
+}
+
+    #team .team-desc-text::-webkit-scrollbar {
+        width: 5px;
+    }
+
+    /* Track */
+    #team .team-desc-text::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px #ffffff;
+        border-radius: 20px;
+    }
+
+    /* Handle */
+    #team .team-desc-text::-webkit-scrollbar-thumb {
+        background: #ffffff;
+        border-radius: 20px;
+    }
+
+        /* Handle on hover */
+        #team .team-desc-text::-webkit-scrollbar-thumb:hover {
+            background: #ffffff;
+        }
+/*---------------------------*/
+
+
+
+
+/*================ Media Query ===============*/
+@media screen and (max-width: 1500px) {
+}
+
+@media screen and (max-width: 1367px) {
+}
+
+@media screen and (max-width: 1024px) {
+    .navbar-brand {
+        margin-right: 0rem;
+        margin-left: 0;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 16px;
+    }
+
+    .menu-bg-color {
+        height: 83px;
+    }
+
+    #home .main-banner-text {
+        font-size: 36px;
+    }
+
+    #home .main-banner-desc {
+        font-size: 17px;
+    }
+
+    .btn-gallery {
+        width: 160px;
+        height: 50px;
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .btn-contact {
+        width: 160px;
+        height: 50px;
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-next {
+        bottom: 246px;
+        width: 36px;
+        height: 113px;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-prev {
+        bottom: 246px;
+        width: 36px;
+        height: 113px;
+    }
+
+    .img-position-right {
+        bottom: 2px;
+    }
+
+    .img-position-left {
+        bottom: 2px;
+    }
+
+    .service-text {
+        font-size: 30px;
+    }
+
+    .service-desc {
+        font-size: 17px;
+    }
+
+    #services .service-text-desc {
+        height: 185px;
+    }
+
+    .service-heading {
+        font-size: 28px;
+    }
+
+    .service-border {
+        padding: 51px 19px;
+    }
+
+    #work .work-desc {
+        height: 196px;
+    }
+
+    #work .owl-carousel .owl-nav button.owl-prev {
+        left: -47px;
+    }
+
+    #work .owl-carousel .owl-nav button.owl-next {
+        right: -47px;
+    }
+
+    #team .owl-carousel .owl-nav button.owl-prev {
+        left: -47px;
+    }
+
+    #team .owl-carousel .owl-nav button.owl-next {
+        right: -47px;
+    }
+
+    #team .team-desc-text {
+        height: 214px;
+    }
+
+    .team-border {
+        border: 3px dashed #959595;
+        padding: 30px 20px;
+    }
+
+    #team .team-desc-text {
+        height: 214px;
+    }
+
+    .connect-text {
+        font-size: 28px;
+    }
+
+    .field-name {
+        height: 57px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+}
+
+@media screen and (max-width: 800px) {
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        padding: 2px 15px 2px 15px;
+    }
+
+    .menu-bg-color {
+        background-image: unset;
+        height: auto;
+    }
+
+    .active .nav-link::before {
+        width: 19%;
+        height: 7px;
+        top: -5px;
+        left: 7px;
+    }
+
+    .active .nav-link::after {
+        width: 19%;
+        height: 7px;
+        left: 7px;
+        bottom: -5px;
+    }
+
+    .nav-item {
+        padding: 20px 10px 10px 91px;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-next {
+        right: 42px;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-prev {
+        left: 42px;
+    }
+
+    #home .main-banner-text {
+        font-size: 30px;
+    }
+
+    #home .main-banner-desc {
+        font-size: 15px;
+    }
+
+    .btn-gallery {
+        font-size: 16px;
+        line-height: 35px;
+    }
+
+    .btn-contact {
+        font-size: 16px;
+        line-height: 35px;
+    }
+
+    .img-position-left {
+        left: 10.5%;
+        bottom: 5px;
+    }
+
+    .img-position-right {
+        right: 9.5%;
+        bottom: 5px;
+    }
+
+    .service-desc {
+        font-size: 15px;
+    }
+
+    #services .btn-load-service {
+        font-size: 19px;
+        width: 176px;
+        height: 56px;
+    }
+
+    .service-heading {
+        font-size: 26px;
+    }
+
+    .img-position-gallery-left {
+        left: 3%;
+        bottom: 7px;
+    }
+
+    .img-position-gallery-right {
+        right: 3%;
+        bottom: 7px;
+    }
+
+    .img-position-work-left {
+        left: 0%;
+        bottom: 8px;
+    }
+
+    .img-position-work-right {
+        right: 0%;
+        bottom: 8px;
+    }
+
+    #bg-banner {
+        padding: 60px 40px;
+    }
+
+    #work .owl-carousel .owl-nav button.owl-prev {
+        left: -50px;
+        height: 98px;
+    }
+
+    #work .owl-carousel .owl-nav button.owl-next {
+        right: -50px;
+        height: 98px;
+    }
+
+    .work-heading {
+        font-size: 22px;
+    }
+
+    #team {
+        padding: 25px 40px;
+    }
+
+    .team-member-text {
+        font-size: 26px;
+    }
+
+    #team .owl-carousel .owl-nav button.owl-prev {
+        left: -50px;
+        height: 98px;
+    }
+
+    #team .owl-carousel .owl-nav button.owl-next {
+        right: -50px;
+        height: 98px;
+    }
+
+    .banner-bg-color {
+        padding: 25px 20px;
+    }
+
+    .connect-text {
+        font-size: 20px;
+    }
+
+    .contact-desc {
+        font-size: 14px;
+    }
+
+    .field-name {
+        height: 48px;
+    }
+
+    #contact-bg-banner [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        font-size: 50.6px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+}
+
+@media screen and (max-width: 411px) {
+}
+
+@media screen and (max-width: 375px) {
+}
+
+@media screen and (max-width: 360px) {
+}
+
+
+/*==================== Media Query For Land Scape Mode =====================*/
+@media screen and (max-width:1366px ) and (orientation: landscape) {
+}
+
+@media screen and (max-width: 1280px) and (orientation: landscape) {
+}
+
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+}
+
+@media screen and (max-width: 823px) and (orientation: landscape) {
+}
+
+@media screen and (max-width: 812px) and (orientation: landscape) {
+}
+
+@media screen and (max-width: 740px) and (orientation: landscape) {
+}
+
+@media screen and (max-width: 736px) and (orientation: landscape) {
+}
+
+@media screen and (max-width: 731px) and (orientation: landscape) {
+}
+
+@media screen and (max-width: 667px) and (orientation: landscape) {
+}
+
+@media screen and (max-width: 640px) and (orientation: landscape) {
+}
