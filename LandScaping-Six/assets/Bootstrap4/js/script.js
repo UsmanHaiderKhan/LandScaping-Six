@@ -158,8 +158,8 @@ $(function () {
                 dots: false,
                 nav: true
             },
-            800: {
-                items: 3,
+            830: {
+                items: 2,
                 dots: false,
                 nav: true
             },
@@ -202,8 +202,8 @@ $(function () {
                 dots: false,
                 nav: true
             },
-            800: {
-                items: 3,
+            830: {
+                items: 2,
                 dots: false,
                 nav: true
             },
