@@ -1666,9 +1666,315 @@ button:focus {
 }
 
 @media screen and (max-width: 900px) {
+    .navbar {
+        padding: 2px 15px 2px 15px;
+    }
+
+    .menu-bg-color {
+        background-image: unset;
+        height: auto;
+    }
+
+    .active .nav-link::before {
+        width: 19%;
+        height: 7px;
+        top: -5px;
+        left: 7px;
+    }
+
+    .active .nav-link::after {
+        width: 19%;
+        height: 7px;
+        left: 7px;
+        bottom: -5px;
+    }
+
+    .nav-item {
+        padding: 20px 10px 10px 91px;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-next {
+        right: 42px;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-prev {
+        left: 42px;
+    }
+
+    #home .main-banner-text {
+        font-size: 30px;
+    }
+
+    #home .main-banner-desc {
+        font-size: 15px;
+    }
+
+    .btn-gallery {
+        font-size: 16px;
+        line-height: 35px;
+    }
+
+    .btn-contact {
+        font-size: 16px;
+        line-height: 35px;
+    }
+
+    .img-position-left {
+        left: 10.5%;
+        bottom: 5px;
+    }
+
+    .img-position-right {
+        right: 9.5%;
+        bottom: 5px;
+    }
+
+    .service-desc {
+        font-size: 15px;
+    }
+
+    #services .btn-load-service {
+        font-size: 19px;
+        width: 176px;
+        height: 56px;
+    }
+
+    .service-heading {
+        font-size: 26px;
+    }
+
+    .img-position-gallery-left {
+        left: 3%;
+        bottom: 7px;
+    }
+
+    .img-position-gallery-right {
+        right: 3%;
+        bottom: 7px;
+    }
+
+    .img-position-work-left {
+        left: 0%;
+        bottom: 8px;
+    }
+
+    .img-position-work-right {
+        right: 0%;
+        bottom: 8px;
+    }
+
+    #bg-banner {
+        padding: 60px 40px;
+    }
+
+    #work .owl-carousel .owl-nav button.owl-prev {
+        left: -50px;
+        height: 98px;
+    }
+
+    #work .owl-carousel .owl-nav button.owl-next {
+        right: -50px;
+        height: 98px;
+    }
+
+    .work-heading {
+        font-size: 22px;
+    }
+
+    #team {
+        padding: 25px 40px;
+    }
+
+    .team-member-text {
+        font-size: 26px;
+    }
+
+    #team .owl-carousel .owl-nav button.owl-prev {
+        left: -50px;
+        height: 98px;
+    }
+
+    #team .owl-carousel .owl-nav button.owl-next {
+        right: -50px;
+        height: 98px;
+    }
+
+    .banner-bg-color {
+        padding: 25px 20px;
+    }
+
+    .connect-text {
+        font-size: 20px;
+    }
+
+    .contact-desc {
+        font-size: 14px;
+    }
+
+    .field-name {
+        height: 48px;
+    }
+
+    #contact-bg-banner [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        font-size: 50.6px;
+        margin-left: 0px;
+    }
 }
 
 @media screen and (max-width: 800px) {
+    .navbar {
+        padding: 2px 15px 2px 15px;
+    }
+
+    .menu-bg-color {
+        background-image: unset;
+        height: auto;
+    }
+
+    .active .nav-link::before {
+        width: 19%;
+        height: 7px;
+        top: -5px;
+        left: 7px;
+    }
+
+    .active .nav-link::after {
+        width: 19%;
+        height: 7px;
+        left: 7px;
+        bottom: -5px;
+    }
+
+    .nav-item {
+        padding: 20px 10px 10px 91px;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-next {
+        right: 42px;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-prev {
+        left: 42px;
+    }
+
+    #home .main-banner-text {
+        font-size: 30px;
+    }
+
+    #home .main-banner-desc {
+        font-size: 15px;
+    }
+
+    .btn-gallery {
+        font-size: 16px;
+        line-height: 35px;
+    }
+
+    .btn-contact {
+        font-size: 16px;
+        line-height: 35px;
+    }
+
+    .img-position-left {
+        left: 10.5%;
+        bottom: 5px;
+    }
+
+    .img-position-right {
+        right: 9.5%;
+        bottom: 5px;
+    }
+
+    .service-desc {
+        font-size: 15px;
+    }
+
+    #services .btn-load-service {
+        font-size: 19px;
+        width: 176px;
+        height: 56px;
+    }
+
+    .service-heading {
+        font-size: 26px;
+    }
+
+    .img-position-gallery-left {
+        left: 3%;
+        bottom: 7px;
+    }
+
+    .img-position-gallery-right {
+        right: 3%;
+        bottom: 7px;
+    }
+
+    .img-position-work-left {
+        left: 0%;
+        bottom: 8px;
+    }
+
+    .img-position-work-right {
+        right: 0%;
+        bottom: 8px;
+    }
+
+    #bg-banner {
+        padding: 60px 40px;
+    }
+
+    #work .owl-carousel .owl-nav button.owl-prev {
+        left: -50px;
+        height: 98px;
+    }
+
+    #work .owl-carousel .owl-nav button.owl-next {
+        right: -50px;
+        height: 98px;
+    }
+
+    .work-heading {
+        font-size: 22px;
+    }
+
+    #team {
+        padding: 25px 40px;
+    }
+
+    .team-member-text {
+        font-size: 26px;
+    }
+
+    #team .owl-carousel .owl-nav button.owl-prev {
+        left: -50px;
+        height: 98px;
+    }
+
+    #team .owl-carousel .owl-nav button.owl-next {
+        right: -50px;
+        height: 98px;
+    }
+
+    .banner-bg-color {
+        padding: 25px 20px;
+    }
+
+    .connect-text {
+        font-size: 20px;
+    }
+
+    .contact-desc {
+        font-size: 14px;
+    }
+
+    .field-name {
+        height: 48px;
+    }
+
+    #contact-bg-banner [class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after {
+        font-size: 50.6px;
+        margin-left: 0px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -1828,15 +2134,144 @@ button:focus {
 }
 
 @media screen and (max-width: 414px) {
+    .navbar-nav {
+        margin-left: 50px;
+    }
+
+    .active .nav-link::after {
+        width: 30%;
+    }
+
+    .active .nav-link::before {
+        width: 30%;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-prev {
+        left: 8px;
+        bottom: 255px;
+        width: 33px;
+        height: 60px;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-next {
+        right: 8px;
+        bottom: 255px;
+        width: 33px;
+        height: 60px;
+    }
+
+    .btn-gallery {
+        width: 120px;
+        height: 45px;
+        font-size: 13px;
+        line-height: 30px;
+    }
+
+    .btn-contact {
+        width: 120px;
+        height: 45px;
+        font-size: 13px;
+        line-height: 30px;
+    }
+
+    .content-setting {
+        padding: 200px 32px;
+    }
+
+    #home .main-banner-text {
+        font-size: 28px;
+    }
+
+    .service-text {
+        font-size: 26px;
+    }
+
+    .service-desc {
+        font-size: 14px;
+    }
+
+    .service-heading {
+        font-size: 24px;
+    }
+
+    .service-text-desc {
+        font-size: 16px;
+    }
+
+    .service-border {
+        padding: 31px 19px;
+    }
+
+    #services .read-text {
+        font-size: 20px;
+    }
+
+    #services .service-text-desc {
+        height: 140px;
+    }
+
+    .work-desc {
+        font-size: 16px;
+    }
+
+    .img-position-work-right {
+        right: -4%;
+    }
+
+    .img-position-work-left {
+        left: -4%;
+    }
+
+    .service-text {
+        font-size: 23px;
+    }
+
+    .team-desc-text {
+        font-size: 16px;
+    }
+
+    .media-mt-contact {
+        margin-top: 30px;
+    }
 }
 
 @media screen and (max-width: 411px) {
 }
 
 @media screen and (max-width: 375px) {
+    #home .owl-carousel .owl-nav button.owl-prev {
+        left: 0px;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-next {
+        right: 0px;
+    }
+
+    .navbar-nav {
+        margin-left: 17px;
+    }
 }
 
 @media screen and (max-width: 360px) {
+    .img-position-work-right {
+        right: -15%;
+    }
+
+    .img-position-work-left {
+        left: -15%;
+    }
+
+    .btn-contact {
+        width: 114px;
+    }
+
+    .btn-gallery {
+        width: 114px;
+    }
+
+    .navbar-nav {
+        margin-left: 17px;
+    }
 }
 
 
@@ -1851,18 +2286,153 @@ button:focus {
 }
 
 @media screen and (max-width: 823px) and (orientation: landscape) {
+    .navbar {
+        padding: 5px 20px 4px 20px;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-prev {
+        left: 30px;
+    }
+
+    #home .owl-carousel .owl-nav button.owl-next {
+        right: 30px;
+    }
+
+    #home .main-banner-text {
+        font-size: 30px;
+    }
+
+    #home .main-banner-desc {
+        font-size: 15px;
+    }
+
+    .img-position-left {
+        left: 9%;
+    }
+
+    .img-position-right {
+        right: 9%;
+    }
+
+    .service-desc {
+        font-size: 16px;
+    }
+
+    .service-heading {
+        font-size: 26px;
+    }
+
+    .img-position-gallery-left {
+        left: 3%;
+        bottom: 5px;
+    }
+
+    .img-position-gallery-right {
+        right: 3%;
+        bottom: 5px;
+    }
+
+    .img-position-work-left {
+        left: 0%;
+    }
+
+    .img-position-work-right {
+        right: 0%;
+    }
+
+    .connect-text {
+        font-size: 22px;
+    }
+
+    .banner-bg-color {
+        text-align: center;
+        padding: 30px 15px;
+    }
+
+    .work-heading {
+        font-size: 20px;
+    }
+
+    #work .work-desc {
+        height: 202px;
+    }
+
+    .work-desc {
+        font-size: 16px;
+    }
+
+    .contact-desc {
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 812px) and (orientation: landscape) {
 }
 
 @media screen and (max-width: 740px) and (orientation: landscape) {
+    .team-desc-text {
+        font-size: 16px;
+    }
+
+    #team .team-desc-text {
+        height: 163px;
+    }
+
+    .media-mt-contact {
+        margin-top: 30px;
+    }
+
+    #services .service-text-desc {
+        height: 140px;
+    }
+
+    .navbar-nav {
+        margin-left: 115px;
+    }
 }
 
 @media screen and (max-width: 736px) and (orientation: landscape) {
+    .team-desc-text {
+        font-size: 16px;
+    }
+
+    #team .team-desc-text {
+        height: 163px;
+    }
+
+    .media-mt-contact {
+        margin-top: 30px;
+    }
+
+    #services .service-text-desc {
+        height: 140px;
+    }
+
+    .navbar-nav {
+        margin-left: 115px;
+    }
 }
 
 @media screen and (max-width: 731px) and (orientation: landscape) {
+    .team-desc-text {
+        font-size: 16px;
+    }
+
+    #team .team-desc-text {
+        height: 163px;
+    }
+
+    .media-mt-contact {
+        margin-top: 30px;
+    }
+
+    #services .service-text-desc {
+        height: 140px;
+    }
+
+    .navbar-nav {
+        margin-left: 115px;
+    }
 }
 
 @media screen and (max-width: 667px) and (orientation: landscape) {
