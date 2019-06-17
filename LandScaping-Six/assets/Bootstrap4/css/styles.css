@@ -49,9 +49,13 @@ html, body {
     border-right: 30px solid transparent;
 }*/
 .menu-bg-color {
-    background-color: #102e19;
+    /*background-color: #102e19;
     background-image: -webkit-linear-gradient(36deg, white 9%, #102e19 8%);
-    height: 90px;
+    height: 90px;*/
+    padding: 25px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .zero-skew {
@@ -184,7 +188,7 @@ html, body {
 }
 
 .content-setting {
-    padding: 200px 0;
+    padding: 170px 0;
 }
 
 
