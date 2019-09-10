@@ -1,4 +1,4 @@
-﻿/*================================= 
+﻿/*=================================
         Font-Family's Start
   =================================*/
 @font-face {
@@ -22,7 +22,7 @@
 }
 
 
-/*================================= 
+/*=================================
         Font-Family's End
   =================================*/
 
@@ -36,7 +36,7 @@ html, body {
 }
 
 
-/*================================= 
+/*=================================
     Navbar Section Styling
   =================================*/
 
@@ -257,9 +257,6 @@ html, body {
         color: #ffffff;
     }
 
-
-
-
 .link-style {
     text-decoration: none;
     color: #fafcfe;
@@ -312,7 +309,13 @@ html, body {
     text-decoration: none;
 }
 
+    #home .owl-theme .owl-nav [class*=owl-]:hover .flaticon-next:before {
+        color: #ffffff;
+    }
 
+    #home .owl-theme .owl-nav [class*=owl-]:hover .flaticon-left:before {
+        color: #ffffff;
+    }
 
 #home .flaticon-next:before {
     content: "\f105";
@@ -323,9 +326,6 @@ html, body {
     color: #17321f;
 }
 
-#home .flaticon-next:hover:before {
-    color: #ffffff;
-}
 
 #home .flaticon-left:before {
     content: "\f100";
@@ -336,12 +336,8 @@ html, body {
     color: #17321f;
 }
 
-#home .flaticon-left:hover:before {
-    color: #ffffff;
-}
 
-
-/*================================= 
+/*=================================
       Service Section Styling
   =================================*/
 #services {
@@ -396,7 +392,7 @@ html, body {
         background-image: url('../../Images/bg-img-hover.png');
         background-repeat: no-repeat;
         background-size: contain;
-        background-position: bottom;
+        background-position: 130px 283px;
     }
 
 .service-heading {
@@ -426,6 +422,7 @@ html, body {
     background-color: rgba(16, 46, 25, 0.902);
     font-family: 'Proxima Nova Semibold';
     color: #ffffff;
+    text-transform: uppercase;
     box-shadow: 0px 5px 5px 0px rgba(39, 66, 48, 0.5);
 }
 
@@ -439,7 +436,7 @@ html, body {
         text-decoration: none;
         color: #102e19;
     }
-/*================================= 
+/*=================================
        Gallery Section Styling
   =================================*/
 #gallery {
@@ -514,7 +511,7 @@ html, body {
     margin-left: 0;
     font-size: 45px;
 }
-/*================================= 
+/*=================================
        Work Section Styling
   =================================*/
 #bg-banner {
@@ -642,7 +639,7 @@ html, body {
     padding: 0px;
     color: #ffffff;
 }
-/*================================= 
+/*=================================
         Team Section Styling
   =================================*/
 #team {
@@ -771,7 +768,7 @@ html, body {
     padding: 0px;
     color: #ffffff;
 }
-/*================================= 
+/*=================================
        Contact Section Styling
   =================================*/
 #contact-bg-banner {
@@ -818,6 +815,7 @@ html, body {
     border-width: 1px;
     font-size: 18px;
     color: #ffffff;
+    border-radius: 0;
     text-transform: uppercase;
     border-color: rgb(156, 194, 18);
     background-color: rgb(16, 46, 25);
@@ -877,7 +875,7 @@ html, body {
 }
 
 
-/*================================= 
+/*=================================
           Read More Styling
   =================================*/
 .comments-space {
